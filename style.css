@@ -1,0 +1,113 @@
+.app{
+
+    height: 100%;
+    width: 100%;
+    background-color:  rgb(0, 34, 66);
+    
+}
+
+.box{
+
+    width: 100%;
+    height: 26%;
+    background-color: rgb(5, 46, 87);
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.logo{
+
+    height: 100%;
+    width: 170px;
+}
+
+.box>ul{
+
+    display: flex;
+    font-size: 20px;
+    gap: 15px;
+    list-style-type: none;
+    color: aliceblue;
+    margin-right: 42px;
+}
+
+.searchBox{
+
+    width: 100%;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+
+}
+input{
+
+    height: 100%;
+    width: 55%;
+    outline: none;
+    border: none;
+}
+
+button{
+    height: 107%;
+    width: 15%;
+    font-size: larger;
+}
+
+.bodyCon{
+    min-height: 340px;
+    display: flex;
+    flex-direction: column;
+    
+    }
+
+.restBox{
+
+    min-height: 200px;
+    width: 160px;
+    background-color: rgb(71, 103, 103);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all;
+transition-duration: .3s;
+}
+    
+
+
+
+.restBox>img{
+    height: 60%;
+    width: 90%;
+    align-items: center;
+    margin-top: 3px;}
+   
+.restCon{
+display: flex;
+flex-wrap: wrap;
+}
+.restBox:hover{
+    transform: scale(1.2);
+    border: 1px dotted white;
+}
+.foot{
+
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+    font-size: larger;
+    align-items: center;
+    
+}
+h3{
+    cursor: pointer;
+    color: aliceblue;
+}
+h4{
+    color: aliceblue;
+}
